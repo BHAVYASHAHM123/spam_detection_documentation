@@ -1,0 +1,90 @@
+# Project information
+site_name: Spam Detection
+# defeine TOC or order of website-
+nav:
+  - Home: index.md
+  - Architecture : architect.md
+  - Coding: code.md
+  - Result: result.md
+
+site_author: Bhavya M Shah
+site_description: >-
+  DESCRIPTION
+
+# Repository
+repo_name: BHAVYASHAHM123/big_mart_store_sale
+repo_url: https://github.com/BHAVYASHAHM123/big_mart_store_sale
+
+social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/BHAVYASHAHM123
+    # - icon: fontawesome/brands/twitter
+      # link: https://twitter.com/c17hawke
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bhavya-shah-76ab701a3/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/bhavyashah_bs/
+# Configuration
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - toc.integrate
+    - navigation.top
+  language: en
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/toggle-switch-off-outline 
+        name: Switch to dark mode
+      primary: light blue
+      accent: purple 
+    - scheme: slate 
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode    
+      primary: cyan
+      accent: orange    
+  # logo: PyTorch_logo_icon.svg
+  
+extra:
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: https://github.com/BHAVYASHAHM123
+    # - icon: fontawesome/brands/twitter
+      # link: https://twitter.com/c17hawke
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/bhavya-shah-76ab701a3/
+    - icon: fontawesome/brands/instagram
+      link: https://www.instagram.com/bhavyashah_bs/
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js #?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - admonition
+  - pymdownx.arithmatex:
+      generic: true
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.mark
+  
+  
+plugins:
+  - search
+  - glightbox
+  
+
+copyright: |
+  &copy; 2022 <a href="https://github.com/BHAVYASHAHM123"  target="_blank" rel="noopener">Bhavya M Shah</a>
+
+extra:
+  generator: false
