@@ -1,5 +1,7 @@
 # Implementation
 
+## Dataset
+
 For dataset visit [kaggle.com](https://www.kaggle.com/datasets/uciml/sms-spam-collection-dataset).
 
 ## Importing the important libraries
@@ -386,12 +388,16 @@ from sklearn.naive_bayes import GaussianNB,MultinomialNB,BernoulliNB
 from sklearn.metrics import accuracy_score,confusion_matrix,precision_score
 ```
 
+Easy Explaination [naive bayes and it's types](code.md).
+
+
 ```python
 # creating the object Gaussian Naive Bayes, Multinomial Naive Bayes, Bernoulli Naive Bayes
 gnb = GaussianNB()
 mnb = MultinomialNB()
 bnb = BernoulliNB()
 ```
+
 
 ```python
 # model training code of Gaussian Naive Bayes

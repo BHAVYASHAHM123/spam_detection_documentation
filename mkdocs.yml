@@ -3,9 +3,10 @@ site_name: Spam Detection
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Architecture: architecture.md
+  - Architecture: architect.md
   - Code: code.md
   - Result: result.md
+  - Naive Bayes: naive_bayes.md
 
 site_author: Bhavya M Shah
 site_description: >-
@@ -28,14 +29,14 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: teal
+      primary: light blue
       accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: teal
-      accent: lime    
+      primary: cyan
+      accent: orange    
   # logo: PyTorch_logo_icon.svg
   
 # extra:
@@ -53,6 +54,7 @@ extra_javascript:
   - javascripts/mathjax.js
   - https://polyfill.io/v3/polyfill.min.js #?features=es6
   - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
 
 markdown_extensions:
   - pymdownx.highlight:

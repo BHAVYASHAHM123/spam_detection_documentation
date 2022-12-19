@@ -3,9 +3,10 @@
 <!-- For full documentation visit [mkdocs.org](https://www.mkdocs.org). -->
 
 
-## Problem Statement
 
 ![Image title](https://st4.depositphotos.com/12547918/19626/i/600/depositphotos_196260144-stock-photo-spam-filter-personal-computer-isolated.jpg)
+
+## Problem Statement
 
 `Email spam has become a serious issue in recent years, and as the number of internet
 users grows, so does the number of spam emails. They are being used for unlawful and
