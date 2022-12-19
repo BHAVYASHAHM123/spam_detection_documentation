@@ -14,10 +14,3 @@ which can destroy our system as well as get access to yours. Spammers can easily
 a fake profile and email account, and in their spam emails, they appear to be a real
 person. These spammers target those who are unaware of the scams.`
 
-
-
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.

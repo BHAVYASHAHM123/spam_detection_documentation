@@ -3,27 +3,17 @@ site_name: Spam Detection
 # defeine TOC or order of website-
 nav:
   - Home: index.md
-  - Architecture : architect.md
-  - Coding: code.md
+  - Architecture: architecture.md
+  - Code: code.md
   - Result: result.md
 
 site_author: Bhavya M Shah
 site_description: >-
   DESCRIPTION
-
 # Repository
-repo_name: BHAVYASHAHM123/big_mart_store_sale
-repo_url: https://github.com/BHAVYASHAHM123/big_mart_store_sale
+repo_name: BHAVYASHAHM123/spam_detection
+repo_url: https://github.com/BHAVYASHAHM123/spam_detection
 
-social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/BHAVYASHAHM123
-    # - icon: fontawesome/brands/twitter
-      # link: https://twitter.com/c17hawke
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/bhavya-shah-76ab701a3/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/bhavyashah_bs/
 # Configuration
 theme:
   name: material
@@ -38,26 +28,26 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline 
         name: Switch to dark mode
-      primary: light blue
+      primary: teal
       accent: purple 
     - scheme: slate 
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode    
-      primary: cyan
-      accent: orange    
+      primary: teal
+      accent: lime    
   # logo: PyTorch_logo_icon.svg
   
-extra:
-  social:
-    - icon: fontawesome/brands/github-alt
-      link: https://github.com/BHAVYASHAHM123
-    # - icon: fontawesome/brands/twitter
-      # link: https://twitter.com/c17hawke
-    - icon: fontawesome/brands/linkedin
-      link: https://www.linkedin.com/in/bhavya-shah-76ab701a3/
-    - icon: fontawesome/brands/instagram
-      link: https://www.instagram.com/bhavyashah_bs/
+# extra:
+#   social:
+#     - icon: fontawesome/brands/github-alt
+#       link: https://github.com/c17hawke
+#     - icon: fontawesome/brands/twitter
+#       link: https://twitter.com/c17hawke
+#     - icon: fontawesome/brands/linkedin
+#       link: https://linkedin.com/in/c17hawke
+#     - icon: fontawesome/brands/instagram
+#       link: https://www.instagram.com/c17hawke/
 
 extra_javascript:
   - javascripts/mathjax.js
@@ -80,8 +70,6 @@ markdown_extensions:
   
 plugins:
   - search
-  - glightbox
-  
 
 copyright: |
   &copy; 2022 <a href="https://github.com/BHAVYASHAHM123"  target="_blank" rel="noopener">Bhavya M Shah</a>
