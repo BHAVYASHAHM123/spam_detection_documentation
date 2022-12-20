@@ -55,3 +55,6 @@ There are three types of Naive Bayes Model, which are given below:
 
 !!! Content 
         [javatpoint](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
+
+    
+
