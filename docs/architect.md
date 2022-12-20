@@ -1,9 +1,10 @@
 # Approach 
 
-`Machine learning methods of recent are being used to successfully detect
-and filter spam emails. Some Methods are Content Based Filtering Technique, Case
-Base Spam Filtering Method, Heuristic or Rule Based Spam Filtering Technique or
-Previous Likeness Based Spam Filtering Technique.`
+!!! Approach
+    Machine learning methods of recent are being used to successfully detect
+    and filter spam emails. Some Methods are Content Based Filtering Technique, Case
+    Base Spam Filtering Method, Heuristic or Rule Based Spam Filtering Technique or
+    Previous Likeness Based Spam Filtering Technique.
 
 ## Diagram
 

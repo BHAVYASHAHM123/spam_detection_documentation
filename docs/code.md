@@ -69,13 +69,11 @@ encoder = LabelEncoder()
 df['target'] = encoder.fit_transform(df['target'])
 ```
 
-What is label encoder?
+!!! Label_Encoder
+    converting the labels into a numeric form so as to convert them into the machine-readable form
 
-`converting the labels into a numeric form so as to convert them into the machine-readable form`
-
-What is  fit transform ? 
-
-`Converting the training data from unit to unitless`
+!!! Fit_transform 
+    Converting the training data from unit to unitless
 
 ## Checking the null values
 ```python
@@ -201,17 +199,23 @@ sns.heatmap(df.corr(), annot = True)
 
 ## (3.) Data Preprocessing
 
-`1.) Lower Case` : Converting all the text into lower case ( helps in the process of preprocessing and in later stages in the NLP application, when you are doing parsing.)
+!!! Lower_Case 
+    Converting all the text into lower case ( helps in the process of preprocessing and in later stages in the NLP application, when you are doing parsing.)
 
-`2.) Tokenization` : the process of  splitting a string, text into a list of tokens.
+!!! Tokenization
+    The process of  splitting a string, text into a list of tokens.
 
-`3.) Removing Special Character` : @ # $ % etc,.
+!!! Removing Special Character 
+     @ # $ % etc,.
 
-`4.) Removing stop words` : english stop words eg (is, at, was, etc,.)
+!!! Removing stop words
+        english stop words eg (is, at, was, etc,.)
 
-`5.) Stemming` : bringing the word at its root form eg : (dancing, danced, dancer = `(dance is the root word )` )
+!!! Stemming
+        bringing the word at its root form eg : (dancing, danced, dancer = `(dance is the root word )` )
 
-`6.) Punctuation` : !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~
+!!! Punctuation
+        !"#$%&\'()*+,-./:;<=>?@[\\]^_`{|}~
 
 
 ## importing stemming
@@ -303,7 +307,8 @@ ham_wc = wc.generate(df[df['target'] == 0]['transform_text'].str.cat(sep = ' '))
 plt.imshow(ham_wc)
 ```
 
-`Word Cloud -> Higest number of words used in the message.`
+!!!Word Cloud
+         Higest number of words used in the message.
 
 
 ## checking the length and diplaying the top 30 common words used in spam
@@ -352,7 +357,7 @@ plt.show()
 
 ## (5.) Model Building
 
-# Extracting the features from text using count vectorizer, tfidf vectorizer
+## Extracting the features from text using count vectorizer, tfidf vectorizer
 
 ```python
 from sklearn.feature_extraction.text import CountVectorizer,TfidfVectorizer
@@ -369,9 +374,11 @@ y = df['target'].values
 y.shape
 ```
 
-`CountVectorizer` :  means breaking down a sentence or any text into words by performing preprocessing tasks like converting all words to lowercase, thus removing special characters. tell unique value.
+!!! CountVectorizer
+        means breaking down a sentence or any text into words by performing preprocessing tasks like converting all words to lowercase, thus removing special characters. tell unique value.
 
-`TF-IDF` : It is used by search engines to better understand the content that is undervalued. For example, when you search for “Coke” on Google, Google may use TF-IDF to figure out if a page titled “COKE” is about: a) Coca-Cola.
+!!! TF-IDF
+        It is used by search engines to better understand the content that is undervalued. For example, when you search for “Coke” on Google, Google may use TF-IDF to figure out if a page titled “COKE” is about: a) Coca-Cola.
 
 
 ## spliting the data into test and train
@@ -388,7 +395,8 @@ from sklearn.naive_bayes import GaussianNB,MultinomialNB,BernoulliNB
 from sklearn.metrics import accuracy_score,confusion_matrix,precision_score
 ```
 
-Easy Explaination [naive bayes and it's types](code.md).
+!!! Easy Explaination 
+        [naive bayes and it's types](code.md).
 
 
 ```python
@@ -426,6 +434,7 @@ print(confusion_matrix(y_test,y_pred3))
 print(precision_score(y_test,y_pred3))
 ```
 
+## Storing the model in the Pickle file
 ```python
 # Creating the Pickle file of the model
 import pickle

@@ -1,7 +1,8 @@
 
 # Naive Bayes
 
-`Naive Bayes` : Suppose we have a dataset of weather conditions and corresponding target variable "Play". So using this dataset we need to decide that whether we should play or not on a particular day according to the weather conditions.
+!!! Naive Bayes
+    Naive Bayes Suppose we have a dataset of weather conditions and corresponding target variable "Play". So using this dataset we need to decide that whether we should play or not on a particular day according to the weather conditions.
 
 1. Convert the given dataset into frequency tables.
 
@@ -17,14 +18,13 @@
 ![naive bayes](https://github.com/BHAVYASHAHM123/spam_detection/blob/master/spam_docs_image2.png?raw=true)
 ![naive bayes](https://github.com/BHAVYASHAHM123/spam_detection/blob/master/spam_docs_image3.png?raw=true)
 
-## Advantages of Naive Bayes Classifier:
-
-Naive Bayes is one of the fast and easy ML algorithms to predict a class of datasets.
-It can be used for Binary as well as Multi-class Classifications.
-It performs well in Multi-class predictions as compared to the other Algorithms.
-It is the most popular choice for text classification problems.
-Disadvantages of Naïve Bayes Classifier:
-Naive Bayes assumes that all features are independent or unrelated, so it cannot learn the relationship between features.
+!!! Advantages
+    Naive Bayes is one of the fast and easy ML algorithms to predict a class of datasets.
+    It can be used for Binary as well as Multi-class Classifications.
+    It performs well in Multi-class predictions as compared to the other Algorithms.
+    It is the most popular choice for text classification problems.
+    Disadvantages of Naïve Bayes Classifier:
+    Naive Bayes assumes that all features are independent or unrelated, so it cannot learn the relationship between features.
 
 ## Applications of Naïve Bayes Classifier:
 
@@ -40,12 +40,15 @@ Naive Bayes assumes that all features are independent or unrelated, so it cannot
 
 There are three types of Naive Bayes Model, which are given below:
 
-`Gaussian`: The Gaussian model assumes that features follow a normal distribution. This means if predictors take continuous values instead of discrete, then the model assumes that these values are sampled from the Gaussian distribution.
+!!! Gaussian 
+    The Gaussian model assumes that features follow a normal distribution. This means if predictors take continuous values instead of discrete, then the model assumes that these values are sampled from the Gaussian distribution.
 
-`Multinomial`: The Multinomial Naïve Bayes classifier is used when the data is multinomial distributed. It is primarily used for document classification problems, it means a particular document belongs to which category such as Sports, Politics, education, etc. The classifier uses the frequency of words for the predictors.
+!!! Multinomial 
+    The Multinomial Naïve Bayes classifier is used when the data is multinomial distributed. It is primarily used for document classification problems, it means a particular document belongs to which category such as Sports, Politics, education, etc. The classifier uses the frequency of words for the predictors.
 
 
-`Bernoulli`: The Bernoulli classifier works similar to the Multinomial classifier, but the predictor variables are the independent Booleans variables. Such as if a particular word is `yes or no` , `true or false` . This model is also famous for document classification tasks.
+!!! Bernoulli
+    The Bernoulli classifier works similar to the Multinomial classifier, but the predictor variables are the independent Booleans variables. Such as if a particular word is `yes or no` , `true or false` . This model is also famous for document classification tasks.
 
 
 Content from [javatpoint](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
