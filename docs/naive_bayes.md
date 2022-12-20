@@ -10,9 +10,11 @@
 
 3. Now, use Bayes theorem to calculate the posterior probability.
 
-`Problem`: If the weather is sunny, then the Player should play or not?
+!!! Problem
+        If the weather is sunny, then the Player should play or not?
 
-`Solution`: To solve this, first consider the below dataset:
+!!! Solution
+        To solve this, first consider the below dataset:
 
 ![naive bayes](https://github.com/BHAVYASHAHM123/spam_detection/blob/master/spam_docs_image1.png?raw=true)
 ![naive bayes](https://github.com/BHAVYASHAHM123/spam_detection/blob/master/spam_docs_image2.png?raw=true)
@@ -51,4 +53,5 @@ There are three types of Naive Bayes Model, which are given below:
     The Bernoulli classifier works similar to the Multinomial classifier, but the predictor variables are the independent Booleans variables. Such as if a particular word is `yes or no` , `true or false` . This model is also famous for document classification tasks.
 
 
-Content from [javatpoint](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
+!!! Content 
+        [javatpoint](https://www.javatpoint.com/machine-learning-naive-bayes-classifier)
